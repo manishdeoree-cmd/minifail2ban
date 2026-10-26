@@ -1,0 +1,40 @@
+Oct 26 13:30:01 myserver CRON[2201]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 26 13:30:01 myserver CRON[2201]: pam_unix(cron:session): session closed for user root
+Oct 26 13:35:12 myserver sshd[2250]: Accepted publickey for deploy from 192.0.2.10 port 50122 ssh2: ED25519 SHA256:Xk3vGq0n1Zr7hTqj9bLw2uYd4sPaE8cNf6RmVtQoIhA
+Oct 26 13:36:40 myserver sshd[2262]: Failed password for deploy from 192.0.2.10 port 50210 ssh2
+Oct 26 13:36:47 myserver sshd[2262]: Accepted password for deploy from 192.0.2.10 port 50210 ssh2
+Oct 26 13:40:02 myserver sshd[2301]: Failed password for root from 198.51.100.23 port 40001 ssh2
+Oct 26 13:40:15 myserver sshd[2303]: Invalid user admin from 198.51.100.23 port 40022
+Oct 26 13:40:15 myserver sshd[2303]: Failed password for invalid user admin from 198.51.100.23 port 40022 ssh2
+Oct 26 13:40:30 myserver sshd[2305]: Failed password for invalid user ubuntu from 198.51.100.23 port 40044 ssh2
+Oct 26 13:41:00 myserver sshd[2310]: Failed password for root from 203.0.113.77 port 33001 ssh2
+Oct 26 13:41:10 myserver sshd[2320]: Failed password for root from 203.0.113.50 port 51000 ssh2
+Oct 26 13:41:13 myserver sshd[2322]: Invalid user admin from 203.0.113.50 port 51002
+Oct 26 13:41:13 myserver sshd[2322]: Failed password for invalid user admin from 203.0.113.50 port 51002 ssh2
+Oct 26 13:41:16 myserver sshd[2324]: Failed password for invalid user ubuntu from 203.0.113.50 port 51004 ssh2
+Oct 26 13:41:19 myserver sshd[2326]: Failed password for invalid user test from 203.0.113.50 port 51006 ssh2
+Oct 26 13:41:22 myserver sshd[2328]: Failed password for invalid user oracle from 203.0.113.50 port 51008 ssh2
+Oct 26 13:41:25 myserver sshd[2330]: Failed password for invalid user pi from 203.0.113.50 port 51010 ssh2
+Oct 26 13:41:28 myserver sshd[2332]: Failed password for root from 203.0.113.50 port 51012 ssh2
+Oct 26 13:41:31 myserver sshd[2334]: Failed password for root from 203.0.113.50 port 51014 ssh2
+Oct 26 13:42:00 myserver sshd[2340]: Failed password for root from 127.0.0.1 port 60001 ssh2
+Oct 26 13:42:01 myserver sshd[2341]: Failed password for root from 127.0.0.1 port 60002 ssh2
+Oct 26 13:42:02 myserver sshd[2342]: Failed password for root from 127.0.0.1 port 60003 ssh2
+Oct 26 13:42:03 myserver sshd[2343]: Failed password for root from 127.0.0.1 port 60004 ssh2
+Oct 26 13:42:04 myserver sshd[2344]: Failed password for root from 127.0.0.1 port 60005 ssh2
+Oct 26 13:42:05 myserver sshd[2345]: Failed password for root from 127.0.0.1 port 60006 ssh2
+Oct 26 13:42:06 myserver sshd[2346]: Failed password for root from 127.0.0.1 port 60007 ssh2
+Oct 26 13:42:07 myserver sshd[2347]: Failed password for root from 127.0.0.1 port 60008 ssh2
+Oct 26 13:42:08 myserver sshd[2348]: Failed password for root from 127.0.0.1 port 60009 ssh2
+Oct 26 13:42:09 myserver sshd[2349]: Failed password for root from 127.0.0.1 port 60010 ssh2
+Oct 26 13:44:00 myserver sshd[2360]: Failed password for root from 203.0.113.77 port 33002 ssh2
+Oct 26 13:45:00 myserver sshd[2370]: Failed password for root from 2001:db8::bad port 44001 ssh2
+Oct 26 13:45:10 myserver sshd[2372]: Failed password for invalid user admin from 2001:db8::bad port 44003 ssh2
+Oct 26 13:45:20 myserver sshd[2374]: Failed password for invalid user guest from 2001:db8::bad port 44005 ssh2
+Oct 26 13:45:30 myserver sshd[2376]: Failed password for invalid user user from 2001:db8::bad port 44007 ssh2
+Oct 26 13:45:40 myserver sshd[2378]: Failed password for root from 2001:db8::bad port 44009 ssh2
+Oct 26 13:45:50 myserver sshd[2380]: Failed password for root from 2001:db8::bad port 44011 ssh2
+Oct 26 13:47:00 myserver sshd[2390]: Failed password for root from 203.0.113.77 port 33003 ssh2
+Oct 26 13:50:00 myserver sshd[2400]: Failed password for root from 203.0.113.77 port 33004 ssh2
+Oct 26 13:53:00 myserver sshd[2410]: Failed password for root from 203.0.113.77 port 33005 ssh2
+Oct 26 13:55:00 myserver sshd[2420]: Received disconnect from 192.0.2.10 port 50210:11: disconnected by user

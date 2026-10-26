@@ -1,0 +1,20 @@
+[Unit]
+Description=minifail2ban - SSH brute-force protection
+Documentation=https://github.com/manishdeoree-cmd/minifail2ban
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /usr/local/bin/minifail2ban run --config /etc/minifail2ban/minifail2ban.conf
+Restart=on-failure
+RestartSec=5
+
+# Needs root to edit firewall rules and read auth logs. Everything else is locked down.
+StateDirectory=minifail2ban
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=full
+
+[Install]
+WantedBy=multi-user.target
